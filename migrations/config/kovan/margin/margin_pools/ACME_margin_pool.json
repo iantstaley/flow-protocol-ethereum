@@ -1,0 +1,47 @@
+{
+    "name": "ACME", 
+    "initialDeposit": "1000000$",
+    "minLeveragedAmount": "500$",
+    "minLeverage": "5x",
+    "maxLeverage": "20x",
+    "tradingPairs": [
+        {
+            "name": "EUR/USD",
+            "spread": "0.001",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "AUD/USD",
+            "spread": "0.001",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USD/CAD",
+            "spread": "0.001",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USD/CHF",
+            "spread": "0.001",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USD/JPY",
+            "spread": "0.004",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "XAU/USD",
+            "spread": "0.6",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USOIL/USD",
+            "minLeveragedAmount": "500$",
+            "minLeverage": "5x",
+            "maxLeverage": "20x",
+            "spread": "1.0",
+            "additionalSwap": "10%"
+        }
+    ]
+}

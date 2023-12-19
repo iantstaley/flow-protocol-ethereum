@@ -1,0 +1,54 @@
+{
+    "name": "General", 
+    "initialDeposit": "1000000$",
+    "minLeveragedAmount": "500$",
+    "minLeverage": "5x",
+    "maxLeverage": "20x",
+    "tradingPairs": [
+        {
+            "name": "EUR/USD",
+            "spread": "0.0008",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "AUD/USD",
+            "spread": "0.0008",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USD/CAD",
+            "spread": "0.0008",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USD/CHF",
+            "spread": "0.0008",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USD/JPY",
+            "spread": "0.006",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "XAU/USD",
+            "spread": "0.006",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "USOIL/USD",
+            "spread": "0.8",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "BTC/USD",
+            "spread": "6",
+            "additionalSwap": "10%"
+        },
+        {
+            "name": "ETH/USD",
+            "spread": "0.08",
+            "additionalSwap": "10%"
+        }
+    ]
+}

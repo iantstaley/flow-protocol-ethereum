@@ -1,0 +1,49 @@
+{
+    "name": "General", 
+    "initialDeposit": "20000$",
+    "minLeveragedAmount": "1$",
+    "minLeverage": "1x",
+    "maxLeverage": "50x",
+    "tradingPairs": [
+        {
+            "name": "EUR/USD",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "USD/EUR",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "JPY/USD",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "USD/JPY",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "JPY/EUR",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "EUR/JPY",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "XAU/USD",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        },
+        {
+            "name": "USD/XAU",
+            "spread": "0.000028152",
+            "additionalSwap": "0%"
+        }
+    ]
+}
